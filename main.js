@@ -22,11 +22,11 @@ window.addEventListener("scroll", function () {
 
 
 $(window).scroll(function () {
-    if ($(window).scrollTop() + $(window).height() < $(document).height() - $("#main-footer").height() - 10) {
+    if ($(window).scrollTop() + $(window).height() < $(document).height() - $("#main-footer").height()) {
 
         $('#BackToTopBtn').css("bottom", "20px"); //resetting it
     }
-    if ($(window).scrollTop() + $(window).height() > $(document).height() - $("#main-footer").height()) {
+    if ($(window).scrollTop() + $(window).height() > $(document).height() - $("#main-footer").height() - 300) {
         $('#BackToTopBtn').css("bottom", "150px");
     }
 
