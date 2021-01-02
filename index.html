@@ -755,6 +755,8 @@
       </div>
     </div>
 
+    <button id="BackToTopBtn" title="Til Toppen"><i class="fas fa-chevron-up"></i></button>
+
 
     <footer id="main-footer" class="p-5 bg-dark text-white">
       <div class="container">
@@ -794,20 +796,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"
       integrity="sha512-YibiFIKqwi6sZFfPm5HNHQYemJwFbyyYHjrr3UT+VobMt/YBo1kBxgui5RWc4C3B4RJMYCdCAJkbXHt+irKfSA=="
       crossorigin="anonymous"></script>
-    <script>
-      // Get the current year for the copyright
-      $('#year').text(new Date().getFullYear());
-
-      $('.port-item').click(function () {
-        $('.collapse').collapse('hide');
-      });
-      // Remove lightbox since you decided not to use it
-      $(document).on('click', '[data-toggle="lightbox"]', function (e) {
-        e.preventDefault();
-        $(this).ekkoLightbox();
-      });
-
+    <script src="main.js">
     </script>
+  </div>
 </body>
 
 </html>
