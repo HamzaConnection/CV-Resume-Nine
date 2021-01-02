@@ -3,7 +3,6 @@ $('#year').text(new Date().getFullYear());
 
 $('.port-item').click(function () {
     $('.collapse').collapse('hide');
-    console.log('c');
 });
 
 $('#BackToTopBtn').click(function () {
