@@ -42,7 +42,7 @@ html {
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    display: flex;
+    display: flex !important;
     align-items: center;
     justify-content: center;
     font-size: 32px;
