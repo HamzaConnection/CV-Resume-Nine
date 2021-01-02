@@ -22,7 +22,7 @@ window.addEventListener("scroll", function () {
 
 
 $(window).scroll(function () {
-    if ($(window).scrollTop() + $(window).height() < $(document).height() - $("#main-footer").height()) {
+    if ($(window).scrollTop() + $(window).height() < $(document).height() - $("#main-footer").height() - 10) {
 
         $('#BackToTopBtn').css("bottom", "20px"); //resetting it
     }
